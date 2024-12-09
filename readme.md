@@ -221,6 +221,7 @@
   * 右外连接
   `SELECT 字段列表 FROM 表1 RIGHT [OUTER] JOIN 表2 ON 条件列表;`
   <!-- 自连接(可以是内连接也可以是外连接) -->
+  * 自连接
   `SELECT 字段列表 FROM 表1 别名1 JOIN 表1 别名2 ON 条件列表;`
 
 ### 联合查询
