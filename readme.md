@@ -111,7 +111,7 @@
     * `REVOKE 权限列表 ON 数据库.表名 FROM '用户名'@'主机名';`
 
 ## 函数
-    * `SELECT 函数(参数)`
+  * `SELECT 函数(参数)`
 ### 字符串函数
   * 字符串拼接
     * `CONCATE(S1, S2, ..., Sn)`
@@ -229,8 +229,8 @@
     * `SELECT 字段列表 FROM 表1, ... UNION [ALL] SELECT 字段列表 FROM 表2, ...;`
 
 ### 子查询(嵌套查询)
-    * `SELECT 字段列表 FROM 表1, ... WHERE column1 = (SELECT column1 FROM 表2);`
-    * `SELECT 字段列表 FROM (SELECT column1 FROM 表1) WHERE 条件列表;`
+  * `SELECT 字段列表 FROM 表1, ... WHERE column1 = (SELECT column1 FROM 表2);`
+  * `SELECT 字段列表 FROM (SELECT column1 FROM 表1) WHERE 条件列表;`
   * 标量子查询(子查询结果为一个值)
     * `>, >=, <, <=, =, <>`
   * 列子查询(子查询结果为一列)
